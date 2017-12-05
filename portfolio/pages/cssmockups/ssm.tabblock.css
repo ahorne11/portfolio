@@ -1,0 +1,36 @@
+/* ===================================================
+   Vertical Tabs
+   =================================================== */
+
+#tabblock { background:#e5e5ea; border:1px solid #d4d4d4; overflow:hidden; position:relative; width:100%; }
+
+#tabblock .tabs { float:left; margin-bottom:-10000px; overflow-x:hidden; padding-bottom:10000px; position:relative; width:16%; z-index:10; }
+#tabblock .tabs .title { display:none; }
+
+#tabblock .tab { margin:0; padding:0; width:100%; }
+#tabblock .tab > a { color:#777; display:block; font-size:.8em; line-height:14px; margin:0; padding:30px 10px 30px 40px; position:relative; text-align:center; text-decoration:none; width:100%; }
+#tabblock .tab > a ._numeral { left:10px; margin-top:-9px; position:absolute; top:50%; }
+#tabblock .tab > a.active { background:#fff; box-shadow:0 1px 5px #999, 0 -1px 5px #999; color:#c51230; font-weight:700; }
+#tabblock .tab > a.active ._numeral { background:#c51230; }
+
+#tabblock .panels { background:#fff; box-shadow:-1px 0 5px #999, 5px 0 1px #fff; float:left; margin:0 0 -10000px; padding:0 0 10000px; width:84%; }
+#tabblock .panel { border:none; border-radius:0; display:none; margin:0; min-height:305px; padding:10px 20px; -webkit-box-shadow:none; box-shadow:none; }
+#tabblock .panel.active { display:block; }
+#tabblock .panel h4 { color:#c51230; font-size:18px; font-weight:700; }
+
+/* Media Query adjustments */
+@media (min-width:421px) {
+    #tabblock .tabs { width:40%; }
+	#tabblock .tabs .title { display:inline-block; }
+	#tabblock .tab > a { text-align:left; font-size:1em; padding:20px 10px 20px 40px; }
+
+    #tabblock .panels { width:60%; }
+}
+
+@media (min-width:651px) {
+    #tabblock .tabs { width:30%; }
+    #tabblock .panels { width:70%; }
+}
+p{
+    font-size: 14px !important;
+}

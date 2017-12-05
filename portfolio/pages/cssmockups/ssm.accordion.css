@@ -1,0 +1,44 @@
+/* ===================================================
+   Accordion Panels
+   =================================================== */
+.accPanel{ border: 1px solid; border-radius: 10px; }
+#accordion .accPanel-primary { border-color:#06539d; }
+#accordion .accPanel-primary .accPanel-heading { background:#06539d !important; }
+#accordion .accPanel-primary ._numeral { color:#06539d; }
+#accordion .accPanel-success { border-color:#5cb85c; }
+#accordion .accPanel-success .accPanel-heading { background:#5cb85c !important; }
+#accordion .accPanel-success ._numeral { color:#5cb85c; }
+#accordion .accPanel-warning { border-color:#f0ad4e; }
+#accordion .accPanel-warning .accPanel-heading { background:#f0ad4e !important; }
+#accordion .accPanel-warning ._numeral { color:#f0ad4e; }
+#accordion .accPanel-danger { border-color:#d9534f; }
+#accordion .accPanel-danger .accPanel-heading { background:#d9534f !important; }
+#accordion .accPanel-danger ._numeral { color:#d9534f; }
+#accordion .accPanel-info { border-color:#5bc0de; }
+#accordion .accPanel-info .accPanel-heading { background:#5bc0de !important; }
+#accordion .accPanel-info ._numeral { color:#5bc0de; }
+
+#accordion .accPanel-brand1 { border-color:#002b54; border: 1px solid; border-radius: 10px; }
+#accordion .accPanel-brand1 .accPanel-heading { background:#002b54 !important; }
+#accordion .accPanel-brand1 ._numeral { color:#002b54; }
+#accordion .accPanel-brand2 { border-color:#c51230; }
+#accordion .accPanel-brand2 .accPanel-heading { background:#c51230 !important; }
+#accordion .accPanel-brand2 ._numeral { color:#c51230; }
+#accordion .accPanel-brand3 { border-color:#438992; }
+#accordion .accPanel-brand3 .accPanel-heading { background:#438992 !important; }
+#accordion .accPanel-brand3 ._numeral { color:#438992; }
+
+#accordion .accPanel-heading { padding:0; border: 1px solid; border-radius: 10px;}
+#accordion .accPanel-title { font-size:16px !important; margin:0 !important; padding:0; }
+#accordion .accPanel-title > a { color:#fff !important; display:block; height:auto; padding:10px 45px 10px 15px; position:relative; text-decoration:none; width:auto; }
+#accordion .accPanel-title > a > ._numeral { background:#fff; height:1.5em; line-height:1.5em; margin:0 5px 0 0; width:1.5em; }
+#accordion .accPanel-title > a > .fa { display:none; margin-top:-10px; position:absolute; top:50%; right:10px; }
+#accordion .accPanel-brand1 { border-color: #002b54; margin-bottom: 20px; }
+#accordion { margin-top: 15px; }
+#accordion .accText { margin-left: 10px; }
+p{
+    font-size: 14px !important;
+}
+.img-responsive{
+    height: 186px !important;
+}

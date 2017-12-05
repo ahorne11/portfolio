@@ -1,0 +1,271 @@
+
+.header{
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 900px;
+    text-align: left;
+}
+.header-title{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.activity-header{
+    font-size: 20px;
+    color: #438992;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 3px 0 0;
+}
+.content{
+
+    background: rgba(207, 215, 222, 0.85) !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.activityContainer{
+    min-height: 245px;
+    padding: 30px;
+    position: relative;
+    text-align: left !important;
+}
+.activity{
+    background:#fff; 
+    border:1px solid #d4d4d4; 
+    padding:10px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.activity-title{
+    background: #ebebeb;
+    color: #888;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding: .5em;
+    text-transform: none;
+}
+#_main1{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    top: 50%;
+    left: 0;
+    width: 100%; 
+}
+#_main{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 0;
+    width: 100%; 
+}
+.container{
+    max-width: 850px;
+}
+ #instructions {
+    background:#fff; 
+    border:1px solid #d4d4d4; 
+    padding:10px; margin-left: auto;
+    margin-right: auto; 
+    width: 900px;
+}
+ #instructions .description h4 { background:#f2f3f7; color:#000; font-size:1.2em; margin:0 0 20px; padding:.3em .5em; text-transform:none; }
+
+.subPanels{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: 100px;
+    left: 0;
+    width: 100%; 
+}
+ .panel {
+    background:#fff; 
+    border:1px solid #000; 
+    padding:10px; 
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 950px;
+    display: none;
+}
+ .panel .description h4 { background:#f2f3f7; color:#000; font-size:1.2em; margin:0 0 20px; padding:.3em .5em; text-transform:none; }
+
+ .plusMinus{
+    margin-top: 120px;
+    font-size: 32px;
+}
+ .plusMinus:hover{
+    font-size: 250%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.plus:hover{
+    color: green !important;
+    transition: .4s ease;
+}
+.minus:hover{
+    color: red !important;
+    transition: .4s ease;
+}
+#trustNegSymbol{
+    height: 300px;
+    border-right: 2px solid #d4d4d4; 
+}
+.row1{
+    border-bottom: 2px solid #d4d4d4; 
+    max-width: 815px;
+}
+.label{
+    margin-right: 120px;
+}
+ #overlay{
+    opacity: 1;
+    transition: .5s ease; 
+}
+.close{
+    opacity: 1 !important;
+    transition: .5s ease;
+}
+.close:hover{
+  text-decoration: underline !important;  
+}
+.next{
+    display: none;
+    transition: .5s ease;
+}
+.xDiv{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    margin-top: -18px;
+    margin-right: -10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #4D4D4D;
+    text-align: center;
+}
+.xDiv:hover{
+    cursor: pointer;
+    background-color: black;
+    transition: .5s ease;
+}
+.x{
+    margin-top: -2px;
+    margin-right: -1px;
+}
+.xDivSmall{
+    top: 120px !important;
+    right: 200px !important
+}
+.footer{
+    height: 50px;
+}
+.footer p{
+    color: #438992;
+}
+.sideImage img{
+    width: 260px;
+    height: 146px;
+    float: left;
+    margin: 1px;
+}
+.panelWrap{
+    width: 500px;
+}
+.infographicContainer{
+    max-width: 800px;
+    max-height: 750px;
+}
+.infographicCol1{
+    max-width: 280px;
+    height: 275px;
+    text-align: center;
+    border: 2px solid #438992;
+}
+.infographicCol2{
+    max-width: 280px;
+    height: 430px;
+    text-align: center;
+    border: 2px solid #438992;
+}
+.infographicCol1 h4,
+.infographicCol2 h4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.infographicCol1 h5,
+.infographicCol2 h5{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+.infographicCol1 img{
+    width: 100%;
+}
+.infographicCol2 img{
+    margin-top: 100px;
+    width: 100%;
+}
+.infographicRow{
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+.infographic:hover{
+    cursor: pointer;
+    opacity: .5;
+    transition: .4s ease-in;
+}
+#policiesDo,
+#policiesDont{
+    opacity: 0;
+    display: none;
+    padding-top: 50px;
+}
+#reportingDo,
+#reportingDont{
+    opacity: 0;
+    display: none;
+    padding-top: 30px;
+}
+.infographicText{
+    margin-top: 5px;
+    font-size: 12px
+}
+.infographicList{
+    font-size: 10px;
+}

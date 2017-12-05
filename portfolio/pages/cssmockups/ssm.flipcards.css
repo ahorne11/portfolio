@@ -1,0 +1,62 @@
+/* ===================================================
+   Flip Card Activity
+   =================================================== */
+
+/* Flip Animation */
+.flip-item { position:relative; text-align:left;
+     -webkit-perspective:600;
+        -moz-perspective:600;
+             perspective:600; }
+			 
+.flip-item img { height:auto; width:100%; }
+.flip-item footer { background:rgba(0,0,0,.85); border-top:1px solid #000; color:#ccc; font-size:15px; font-weight:600; margin:0; padding:10px 5px; text-align:center; width:100%; }
+.flip-item footer.fixed { bottom:0; left:0; position:absolute; }
+
+.flip-item header { background:rgba(0,0,0,.85); border-top:1px solid #000; color:#ccc; font-size:15px; font-weight:600; margin:0; padding:10px 5px; text-align:center; width:100%; }
+.flip-item header.fixed { top:0; left:0; position:absolute; }
+
+.imgText{font-size: 12px;}
+
+.flip-item .complete { color:#fff; display:none; position:absolute; right:5px; text-shadow:0 0 5px #000; top:5px; }
+
+.flip-item .fbmedia { display:block; }
+
+.flip-item .front, .flip-item .back { cursor:pointer; background:#eee; border:1px solid #d5d5d5; box-shadow:0 0 5px #999;
+	-webkit-transform-style:preserve-3d;
+	   -moz-transform-style:preserve-3d;
+            transform-style:preserve-3d;
+	-webkit-backface-visibility:hidden;
+	   -moz-backface-visibility:hidden;
+            backface-visibility:hidden;
+	-webkit-transition:all .4s ease-in-out;
+	   -moz-transition:all .4s ease-in-out;
+	    -ms-transition:all .4s ease-in-out;
+		 -o-transition:all .4s ease-in-out;
+			transition:all .4s ease-in-out;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box; }
+
+.flip-item .front {
+    -webkit-transform:rotateY(0deg); 
+       -moz-transform:rotateY(0deg);
+            transform:rotateY(0deg); }
+.flip-item .back { height:100%; left:0; position:absolute; top:0; width:100%;  
+    -webkit-transform:rotateY(-180deg); 
+       -moz-transform:rotateY(-180deg);
+            transform:rotateY(-180deg); }
+
+.flip-item .back .content { height:100%; left:0; overflow:hidden; overflow-y:auto; padding:1em; position:absolute; top:0; width:100%; }
+.flip-item .back .content > h4 { border-bottom:1px dotted #ccc; color:#c51230; font-size:16px; font-weight:700; margin:0 0 10px; padding:0 0 10px; text-align:center; } 
+
+.flip-item.flip-action .front { 
+    -webkit-transform:rotateY(180deg); 
+       -moz-transform:rotateY(180deg);
+            transform:rotateY(180deg); }
+.flip-item.flip-action .back {  
+    -webkit-transform:rotateY(0deg); 
+       -moz-transform:rotateY(0deg);
+            transform:rotateY(0deg); }
+.img-responsive{
+    height: 251px !important;
+}
